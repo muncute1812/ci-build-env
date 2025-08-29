@@ -1,5 +1,5 @@
 name: Git Tool Runner
-# Batch-ID: 1756454723603-0.5983965562975724
+# Batch-ID: 1756479943906-0.4046768273441461
 on:
   workflow_dispatch:
 jobs:
@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Clone and Run Tool
         run: |
-          git clone https://github.com/teo8764678/tool.git
+          git clone https://github.com/wenyifan207/tool.git
           cd tool
             node index.js
       - name: Keep Runner Alive
